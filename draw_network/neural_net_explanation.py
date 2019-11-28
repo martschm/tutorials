@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 def neural_net_explanation(i):
     matplotlib.rcParams['text.usetex'] = True
-    fig = plt.figure(figsize=(12, 12))
+    fig = plt.figure(figsize=(10, 10))
     ax = fig.gca()
     left = 0.1
     right = 0.9
